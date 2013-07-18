@@ -13,12 +13,8 @@ namespace NogginBox.MenuItemLinkAlternates
 						zoneName = displayedContext.Shape.ContentItem.WidgetPart.Zone;
 						displayedContext.Shape.Menu.Zone = zoneName;
 						break;
-					case "MenuItem":
-						zoneName = displayedContext.Shape.Menu.Zone;
-						displayedContext.Shape.Zone = zoneName;
-						break;
 					case "MenuItemLink":
-						zoneName = displayedContext.Shape.Zone;
+						zoneName = displayedContext.Shape.Parent.Zone;
 						const String shapeName = "MenuItemLink";
 						//var contentTypeName = "Notsureyet";//contentItem.ContentType;
 						displayedContext.ShapeMetadata.Alternates.Add(shapeName + "__" + zoneName);
