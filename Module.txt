@@ -1,7 +1,7 @@
 ﻿Name: MenuItemLink Alternates
 AntiForgery: enabled
 Author: Richard Garside - www.nogginbox.co.uk
-Website: http://www.nogginbox.co.uk
+Website: https://bitbucket.org/NogginBox/orchard-menuitemlink-alternatives-module
 Version: 1.0
 OrchardVersion: 1.6
 Category: Designer
